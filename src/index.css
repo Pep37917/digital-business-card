@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #605e5e;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*
+ =======================
+      GLOBAL STYLES
+ =======================
+*/
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.8125em;
+    color: #141111;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+    color: #080808;
+}
+
+/* ===== container styles ===== */
+
+.container {
+    width: 330px;
+    background: #1A1B21;
+    border-radius: 5px;
+}
+
+/* ===== info styles ===== */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2.2em;
+    background: #363333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.top > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: 2px solid #F3BF99;
+    object-fit: cover;
+}
+
+.info {
+    text-align: start;
+}
+
+.info > .name {
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+
+.info > .profession {
+    color: #F3BF99;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0.4em 0;
+}
+
+/* ===== main content styles ===== */
+
+.main {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 1.5em;
+    padding: 0 2.2em;
+}
+
+.main > .about-section {
+    color: #FFFFFF;
+}
+
+.main  > .about-section > .title {
+    margin-bottom: 0.4em;
+    color: #F3BF99;
+}
+
+.main > .about-section > p {
+    font-size: 0.7em;
+    border-left: 2.5px solid #F3BF99;
+    padding-left: 0.5em;
+}
+
+.main > .buttons {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.main > .buttons > button{
+    width: 80px;
+    font-size: 1rem;
+    padding: 0.2em 0.6em;
+    border-radius: 5px;
+}
+
+.main > .buttons > .email {
+    background: #D1D5DB;
+} 
+
+.main > .buttons > .linkedin {
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+.main > .buttons > .other-btns {
+    font-size: 2.4rem;
+    flex: 0 0 45%;
+}
+
+.main > .buttons > .other-btns> i {
+    margin-right: 0.23em;
+    color: #918E9B;
+}
+
+/* ===== footer styles ====== */
+
+.footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .web {
+    color: #F3BF99;
+    font-size: 0.7rem;
+    background: #444242;
+    padding: 0.8em 2em;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+
+}
