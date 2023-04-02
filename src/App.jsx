@@ -1,5 +1,4 @@
 import React from "react"
-import { useState } from "react"
 import Info from "../components/Info.jsx"
 import About from "../components/About.jsx"
 import Buttons from "../components/Buttons"
